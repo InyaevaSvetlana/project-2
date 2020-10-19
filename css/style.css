@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-header {
+    padding: 30px;
+    background-color: #1D232C;
+    background-image: url(../img/bg_photo.jpg);
+}
+
+.header-navigation {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-header-navigation {
+    display: flex;
+}
+
+.header-slider {
+    display: flex;
+}
+
+.header-slider-button-left {
+    width: 40px;
+    height: 73px;
+    background: transparent;
+    border: none;
+    background-image: url(../img/left_button.svg);
+}
+
+.header-slider-button-right {
+    width: 40px;
+    height: 73px;
+    background: transparent;
+    border: none;
+    background-image: url(../img/right_button.svg);
+}
+
+.main-sector {
+    display: flex;
+}
+
+.main-mobile {
+    background-image: url(../img/iphone_in_hand_10962.jpg);
+    height: 616px;
+    background-repeat: no-repeat;
+}
+
+.main-products {
+    background-color: #1D232C;
+    background-image: url(../img/bg_photo_11122.jpg);
+}
