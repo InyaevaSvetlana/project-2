@@ -981,6 +981,10 @@ body {
     opacity: 70%;
 }
 
+.main-products-list-logo:focus {
+    opacity: 70%;
+}
+
 .footer {
     background-color: #191919;
 }
