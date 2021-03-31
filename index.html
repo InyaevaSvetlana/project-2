@@ -304,7 +304,6 @@
 					saepius, qui sequitur
 					mutationem
 					consuetudium.</p>
-				<p class="section-video-time">00:00 </p>
 			</section>
 			<section class="main-mobile">
 				<img src="img/iphone_in_hand.jpg" alt="iphone_in_hand" class="main-mobile-img" width="423" height="616">
@@ -550,6 +549,18 @@
 		</footer>
 
 	</div>
+	<script>
+	let vid = document.querySelector('.video-file');
+	let play = document.querySelector('.video-play-btn').onclick = function(){
+		vid.contentWindow.postMessage(JSON.stringify({
+    type: 'vid:play',
+    data: {}
+}), '*');
+};
+
+
+	</script>
 </body>
+
 
 </html>

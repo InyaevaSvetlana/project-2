@@ -692,11 +692,6 @@ body {
     text-align: center;
 }
 
-.section-video-time {
-    position: absolute;
-    top: 60%;
-    left: 51%;
-}
 
 .video-play-btn {
     position: absolute;
